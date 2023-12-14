@@ -1,12 +1,17 @@
 ## API de Atendimento para Clínica Médica
 
+
 ### 1. INTRODUÇÃO
+
+
 Bem-vindo ao repositório da API responsável pela administração do módulo de atendimento em uma aplicação de clínica médica. Esta API simula o registro de atendimentos realizados pelos médicos, mantendo históricos detalhados dos pacientes em prontuários.
 
 API desemvolvida em Spring utilizando as principais tecnologias do ecossistema além de conteinerização e utilização de serviços Cloud como AWS RDS.
 
 
 ### 2. DESCRIÇÃO DO PRODUTO: REQUISITOS FUNCIONAIS
+
+
 Elencamos abaixo com maior detalhe as seguintes funcionalidades do sistema de atendimento médico:
 
 1. **Criar um prontuário**: permitirá criar prontuário com os seguintes dados/campos: registro de agenda ou data da consulta, histórico do paciente e prontuário detalhado da consulta, receituário ou receita definida pelo médico na consulta para o paciente e exames recomendados para o paciente realizar. Todos os campos são de preenchimento obrigatório;
@@ -23,6 +28,7 @@ Elencamos abaixo com maior detalhe as seguintes funcionalidades do sistema de at
 
 
 ### 3.PRINCIPAIS TECNOLOGIAS UTILIZADAS
+
 
 1. **Lombok**: Utilizado no desenvolvimento para reduzir a verbosidade do código.
 
@@ -50,7 +56,9 @@ Elencamos abaixo com maior detalhe as seguintes funcionalidades do sistema de at
 
 13. **My JSON Server**: serviço online que permitiu criar uma API REST simulada a partir de um arquivo JSON.
 
-# 4. PASSO A PASSO PARA EXECUTAR A APLICAÇÃO
+
+### 4. PASSO A PASSO PARA EXECUTAR A APLICAÇÃO
+
 
 1. **Clonar o Repositório:**
    ```bash
